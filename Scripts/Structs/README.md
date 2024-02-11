@@ -1,0 +1,1 @@
+These scripts are intended for structs definitions. These things are low-level, typically assembly related.

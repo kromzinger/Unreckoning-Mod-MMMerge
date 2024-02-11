@@ -1,0 +1,1 @@
+These scripts are loaded when a new game is started or a saved game is loaded and are unloaded when user exits to main menu or loads another game. This is a good place for most of your scripts that don't belong to specific maps. Quests scripts in particular.

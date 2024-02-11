@@ -1,0 +1,2 @@
+These scripts correspond to maps. For example, scripts named oute3.lua and some_name.oute3.lua would be loaded when oute3.odm map (New Sorpigal) is loaded and unloaded when it is left.
+Map scripts can have accompanying global scripts next to them: oute3.global.lua and some_name.oute3.global.lua respectively. These scripts behave as the ones in Global folder, but are loaded after them and share local autonotes with their respective map script.

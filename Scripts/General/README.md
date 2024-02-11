@@ -1,0 +1,1 @@
+These scripts are loaded before the game starts and are never unloaded.
