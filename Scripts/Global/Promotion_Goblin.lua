@@ -2,13 +2,13 @@
 local A, B, C, D, E, F = 0, 1, 2, 3, 4, 5
 
 local EbednezerIndex = 384
-local GazloweIndex = 389 -- Anthony Green
-Game.NPC[GazloweIndex].Name = "Gazlowe"
-Game.NPC[GazloweIndex].Pic = 1031 -- Goblin portrait
+local gazloweIndex = 389 -- Anthony Green
+Game.NPC[gazloweIndex].Name = "Gazlowe"
+Game.NPC[gazloweIndex].Pic = 1031 -- Goblin portrait
 
-local AnthonyGreenHouse = Game.NPC[GazloweIndex].House
+local AnthonyGreenHouse = Game.NPC[gazloweIndex].House
 -- Move Goblin leader into Ebednezers house.
-Game.NPC[GazloweIndex].House = Game.NPC[EbednezerIndex].House
+Game.NPC[gazloweIndex].House = Game.NPC[EbednezerIndex].House
 -- Move Ebednezer into Anthony Greens house
 Game.NPC[EbednezerIndex].House = Game.NPC[AnthonyGreenHouse].House
 
@@ -21,7 +21,7 @@ What do we have here?
 
 Quest{ 
 	"GoblinPromotion",
-    NPC = GazloweIndex,
+    NPC = gazloweIndex,
     Slot = A, -- change to correct slot (for instance the slot you want to replace)
     QuestItem = {
 		{653, Count = 10},  
@@ -41,7 +41,7 @@ Quest{
 	Give = [[
 To become a Headhunter you need that sense of vengeance
 Ya know who did us goblin bad?
-Them OGRES! They drove us off Jadame
+Them OGRES! They drove us off Jadame and now they placed a scouting party in tidewater island?!
 Kill the ogres and bring me 10 Ogre ears as proof of they're demise
 Yo will then be promoted to Headhunter status. 
 The rest of you will be honorary Headhunter
